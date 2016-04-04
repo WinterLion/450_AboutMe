@@ -24,6 +24,7 @@ public class QuinnAdded extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        //I saw your new activity
     }
 
 }
