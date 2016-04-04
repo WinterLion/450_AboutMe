@@ -54,6 +54,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="tcss450.uw.edu.aboutme.MainActivity_FiveButton" />
         </activity>
+        <activity
+            android:name=".QuinnAdded"
+            android:label="@string/title_activity_quinn_added"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

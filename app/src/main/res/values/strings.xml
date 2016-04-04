@@ -11,4 +11,5 @@
     <string name="title_activity_web">WebActivity</string>
     <string name="title_activity_toast">ToastActivity</string>
     <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_quinn_added">QuinnAdded</string>
 </resources>
