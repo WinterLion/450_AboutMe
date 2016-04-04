@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tcss450.uw.edu.aboutme.MainActivity_FiveButton"
+    tools:showIn="@layout/activity_main_activity__five_button">
+
+    <Button
+        android:text="@string/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendText" />
+    <Button
+        android:text="@string/Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendImage"/>
+
+    <Button
+        android:text="@string/Web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendWeb"/>
+    <Button
+        android:text="@string/Toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendToast"/>
+    <Button
+        android:text="@string/Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendDialog"/>
+</LinearLayout>
